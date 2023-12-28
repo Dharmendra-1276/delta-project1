@@ -5,3 +5,16 @@
      btn.innerText="click me!";
       btn.classList.add("btn");
         div.appendChild(btn);
+
+         btn.addEventListener('click',async()=>{
+             let a=document.createElement('a');
+               a.innerText="hello";
+                a.href="#action";
+                 div.appendChild(a);
+
+              
+         });
+
+           let hello;
+       
+         
